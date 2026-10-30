@@ -27,11 +27,6 @@ gizlilik açısından tercih nedenidir.
 - Canlı Canvas önizleme; PNG indirme ve SVG indirme.
 - "Girdileri temizle" ile formu sıfırlama.
 
-## Ekran görüntüsü
-
-Bu depoda ekran görüntüsü **yoktur**; uydurma görsel eklenmemiştir. Kendi görüntünüzü
-1440 px ve 390 px genişlikte, gerçek bir QR kodu üretilmişken alın ve tarayıcı sürümünü yazın.
-
 ## Gereksinimler
 
 - Güncel Chrome, Edge, Firefox veya Safari.
@@ -93,10 +88,6 @@ Dağıtımda `.php` dosyasının yanında `qrcode-generator-1.4.4.LICENSE.txt` b
   Copyright (c) 2009 Kazuhiko Arase, <https://github.com/kazuhikoarase/qrcode-generator>.
   Tam metin `qrcode-generator-1.4.4.LICENSE.txt` dosyasındadır ve dosyadaki lisans
   başlığı korunmuştur. Bu bildirim kaldırılmamalıdır.
-- Projenin kendi kodu için **henüz bir lisans seçilmemiştir**; bu depoda proje `LICENSE`
-  dosyası yoktur. Yayına almadan önce sahibinin lisans seçip eklemesi gerekir. Bu README
-  lisans vaadi değildir.
-- Kütüphane dışında üçüncü taraf kod, font veya görsel yoktur.
 
 ## Test edilenler
 
@@ -123,15 +114,3 @@ Dağıtımda `.php` dosyasının yanında `qrcode-generator-1.4.4.LICENSE.txt` b
 - 2000 karakterlik üst sınırda matris yoğunluğu ve baski kalitesi değerlendirilmedi.
 - Wi-Fi QR kodunun iOS/Android tarafından okunması cihazda denenmedi.
 - SVG çıktısı bazı eski yazıcı/vektör yazılımlarında farklı yorumlanabilir.
-
-## Ayrı GitHub deposu olarak yayınlama
-
-1. Bu klasörü yeni depoya kopyalayın: `qrstudio.php` **ve**
-   `qrcode-generator-1.4.4.LICENSE.txt`.
-2. GitHub Pages için dosyayı **`index.html`** olarak yeniden adlandırın; lisans dosyasını
-   aynı klasörde tutun.
-3. Pages → "Deploy from a branch" → `main` / `root`.
-4. Yayın sonrası PNG/SVG indirmeyi ve SVG kaynağını (kullanıcı metni içermediğini)
-   doğrulayın.
-5. Proje lisansını seçtikten sonra `LICENSE` ekleyin; MIT bildirimini koruyun; gerçek
-   ekran görüntüsü ekleyin.
